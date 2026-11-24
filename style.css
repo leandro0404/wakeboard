@@ -16,25 +16,6 @@ body {
   background: #f0f7ff;
   color: #1a2e44;
   line-height: 1.6;
-  background-image: url('canibal.jpeg');
-  background-repeat: repeat;
-  background-size: 320px auto;
-  background-attachment: fixed;
-  position: relative;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: rgba(240, 247, 255, 0.92);
-  z-index: 0;
-  pointer-events: none;
-}
-
-body > * {
-  position: relative;
-  z-index: 1;
 }
 
 .container {
@@ -114,7 +95,9 @@ nav a:hover {
    HERO
 =========================== */
 .hero {
-  background: linear-gradient(135deg, #1a2e44 0%, #1a6fbb 100%);
+  background:
+    linear-gradient(135deg, rgba(26,46,68,0.82) 0%, rgba(26,111,187,0.82) 100%),
+    url('canibal.jpeg') center center / cover no-repeat;
   color: white;
   padding: 3rem 0;
 }
@@ -122,22 +105,12 @@ nav a:hover {
 .hero-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-text {
-  flex: 1;
-}
-
-.hero-logo {
-  width: 160px;
-  height: 88px;
-  border-radius: 10px;
-  flex-shrink: 0;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
-  object-fit: cover;
-  object-position: center;
+  max-width: 600px;
 }
 
 .hero h2 {
