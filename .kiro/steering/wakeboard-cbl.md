@@ -89,13 +89,13 @@ O mapa está em `wake_cbl_mapa_ paint.png` na raiz do projeto.
 - Flat bars ficam em abordagem backside — ombro da frente aponta pro obstáculo
 
 ### 7. Macetes gerais da pista
-- Nunca solte o handle dentro da pista (risco de se machucar com o cabo)
-- Caia de lado, nunca de frente
-- Se vai cair, solta o handle e caia longe do obstáculo
-- Espere o cabo afundar antes de nadar de volta ao deck
-- Regra da pista: quem caiu fica na lateral, não no meio do percurso
-- Ao passar na frente do dock start e ver alguém saindo: vá para a rampa (incliner) e evite a flat bar — o tranco de quem inicia pode folgar o cabo ou variar a velocidade e desestabilizar em cima do obstáculo
-- Na dúvida sobre um obstáculo: primeira vez sem trick, só passar por cima
+- Caia de lado, nunca de frente — protege rosto e joelhos
+- Se caiu e tem alguém vindo: afunde a cabeça dentro da água, não fique na superfície esperando
+- Antes de entrar no kicker, olha atrás do obstáculo — se alguém caiu lá, não entra, espera limpar
+- Quem caiu fica na lateral, nunca no meio do percurso. Espera o cabo afundar antes de nadar de volta
+- Ao passar na frente do dock start e ver alguém saindo: vá para o incliner e evite a flat bar — o tranco de quem inicia pode folgar o cabo e desestabilizar em cima do obstáculo
+- Nas curvas use calcanhar ou ponta do pé dependendo se está fazendo heel ou toe — prancha reta na curva pode estilinguar pelo cabo ou bater de nuca
+- Na dúvida num obstáculo: primeira vez sem trick, só passar por cima
 
 ---
 
