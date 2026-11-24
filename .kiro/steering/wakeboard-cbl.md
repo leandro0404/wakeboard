@@ -81,7 +81,7 @@ Mapa desenhado em SVG com 5 torres (boias laranjas), cabo tracejado horário e 8
 4. Flat Bar 2 — acima do cabo
 
 **Obstáculos na lateral esquerda:**
-- Incliner — rampa lateral, praticamente sem cavada
+- Incliner — estrutura triangular na lateral esquerda, praticamente sem cavada
 
 **Obstáculos na base (sentido horário, torre 4 → torre 5):**
 - Transfer — acima do cabo (lado direito para quem vem), próximo torre 4
