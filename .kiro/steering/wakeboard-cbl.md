@@ -81,7 +81,7 @@ Mapa desenhado em SVG com 5 torres (boias laranjas), cabo tracejado horário e 8
 4. Flat Bar 2 — acima do cabo
 
 **Obstáculos na lateral esquerda:**
-- Incliner — estrutura triangular na lateral esquerda, praticamente sem cavada
+- Incliner — estrutura triangular com corrimão, diagonal para fora na lateral esquerda. Entrada com cavada reta no rumo do obstáculo. Passar de board é mais seguro para iniciantes — mais área de contato do que um 50-50
 
 **Obstáculos na base (sentido horário, torre 4 → torre 5):**
 - Transfer — acima do cabo (lado direito para quem vem), próximo torre 4
@@ -118,7 +118,7 @@ Mapa desenhado em SVG com 5 torres (boias laranjas), cabo tracejado horário e 8
 **Cavadas:**
 - Curvas normais: suave, joelhos absorvendo
 - Antes de obstáculo: solta a cavada ~5 metros antes (iniciante), entra neutro. Cavadas fortes são para experientes
-- Incliner: praticamente não cava — só direciona a prancha
+- Incliner: estrutura triangular com corrimão, diagonal para fora. Entrada com cavada reta no rumo do obstáculo. Passar de board é mais seguro — mais área de contato do que um 50-50
 - Kicker: pequena cavada heelside antes, neutro na subida
 - Flat bar: cavada progressiva bem leve partindo de baixo do cabo, entra neutro — a posição debaixo do cabo é a referência fixa
 - **Uma mão ao entrar em obstáculos:** soltar uma mão alinha o corpo para a margem, evita rotação dos ombros. Duas mãos puxam os ombros para frente e desequilibram. Com uma mão e joelhos flexionados o equilíbrio é mais fácil de recuperar
