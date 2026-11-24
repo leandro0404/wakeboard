@@ -76,6 +76,7 @@ O mapa está em `wake_cbl_mapa_ paint.png` na raiz do projeto.
 - **Incliner:** praticamente não cava — só direciona a prancha pra cima da rampa, o cabo já puxa você por cima
 - **Kicker:** pequena cavada heelside antes pra ganhar velocidade, depois neutro na subida
 - **Flat bar:** cavada progressiva bem leve, partindo sempre de baixo do cabo para ir ao obstáculo — entra neutro em cima, sem cavar. Usar a posição debaixo do cabo como referência fixa garante sempre a mesma abordagem
+- **Uma mão ao entrar em obstáculos:** soltar uma mão do handle alinha o corpo para a margem e evita que os ombros girem com o cabo. Com as duas mãos, os ombros são puxados para frente forçando rotação e desequilíbrio. Com uma mão e joelhos flexionados fica mais fácil buscar equilíbrio
 
 **Regular (pé esquerdo na frente):**
 - No sentido horário do CBL, as curvas fechadas ficam no lado do heel
