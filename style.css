@@ -15,10 +15,10 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   background-color: #f0f7ff;
   background-image:
-    url('pista-bg.svg'),
-    url('canibal.jpeg');
+    url('canibal.jpeg'),
+    url('pista-bg.svg');
   background-repeat: repeat, repeat;
-  background-size: 500px auto, 400px auto;
+  background-size: 400px auto, 500px auto;
   background-attachment: fixed, fixed;
   color: #1a2e44;
   line-height: 1.6;
