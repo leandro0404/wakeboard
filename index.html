@@ -192,10 +192,10 @@
 
       <div class="mapa-wrap">
         <!-- SVG do mapa da pista CBL -->
-        <svg viewBox="0 0 760 580" xmlns="http://www.w3.org/2000/svg" class="mapa-svg">
+        <svg viewBox="0 0 760 640" xmlns="http://www.w3.org/2000/svg" class="mapa-svg">
 
           <!-- Fundo água -->
-          <rect width="760" height="580" fill="#d6eeff" rx="12"/>
+          <rect width="760" height="640" fill="#d6eeff" rx="12"/>
 
           <!-- === CABO / TRAJETO (sentido horário) === -->
           <!-- Topo: torre TL → torre TR -->
@@ -276,15 +276,15 @@
           <text x="58" y="215" font-size="10" fill="#1a6fbb" font-weight="700">INCLINER</text>
           <text x="58" y="227" font-size="9" fill="#2d7a2d">iniciante</text>
 
-          <!-- === TRANSFER (próximo ao cabo da base, centro) === -->
-          <rect x="310" y="448" width="90" height="12" rx="3" fill="#16a085" stroke="white" stroke-width="1.5"/>
-          <text x="355" y="438" text-anchor="middle" font-size="10" fill="#16a085" font-weight="700">TRANSFER</text>
-          <text x="355" y="474" text-anchor="middle" font-size="9" fill="#9a6800">médio</text>
+          <!-- === TRANSFER (dentro da pista, abaixo do cabo da base, centro) === -->
+          <rect x="310" y="480" width="90" height="12" rx="3" fill="#16a085" stroke="white" stroke-width="1.5"/>
+          <text x="355" y="475" text-anchor="middle" font-size="10" fill="#16a085" font-weight="700">TRANSFER</text>
+          <text x="355" y="505" text-anchor="middle" font-size="9" fill="#9a6800">médio</text>
 
-          <!-- === ROOFTOP (base, próximo torre 4 / BR) === -->
-          <rect x="430" y="458" width="90" height="22" rx="4" fill="#2c3e50" stroke="white" stroke-width="1.5"/>
-          <text x="475" y="474" text-anchor="middle" font-size="11" fill="white" font-weight="bold">ROOFTOP</text>
-          <text x="475" y="492" text-anchor="middle" font-size="9" fill="#9a0000">avançado</text>
+          <!-- === ROOFTOP (dentro da pista, afastado da torre 4) === -->
+          <rect x="400" y="480" width="90" height="22" rx="4" fill="#2c3e50" stroke="white" stroke-width="1.5"/>
+          <text x="445" y="496" text-anchor="middle" font-size="11" fill="white" font-weight="bold">ROOFTOP</text>
+          <text x="445" y="514" text-anchor="middle" font-size="9" fill="#9a0000">avançado</text>
 
           <!-- === FIBONAT (base, próximo torre BL, exterior do cabo) === -->
           <rect x="155" y="478" width="60" height="10" rx="3" fill="#c0392b" stroke="white" stroke-width="1.5"/>
@@ -297,35 +297,35 @@
           <text x="660" y="308" text-anchor="middle" font-size="9" fill="#2d7a2d">iniciante/médio</text>
 
           <!-- === LEGENDA === -->
-          <rect x="20" y="500" width="720" height="68" rx="8" fill="white" opacity="0.85"/>
-          <circle cx="42" cy="520" r="8" fill="#ff6b35"/>
-          <text x="56" y="524" font-size="11" fill="#1a2e44" font-weight="600">Torre/Boia</text>
-          <text x="56" y="536" font-size="10" fill="#c0392b">passe por fora</text>
+          <rect x="20" y="560" width="720" height="68" rx="8" fill="white" opacity="0.85"/>
+          <circle cx="42" cy="580" r="8" fill="#ff6b35"/>
+          <text x="56" y="584" font-size="11" fill="#1a2e44" font-weight="600">Torre/Boia</text>
+          <text x="56" y="596" font-size="10" fill="#c0392b">passe por fora</text>
 
-          <rect x="140" y="513" width="30" height="8" rx="2" fill="#8e44ad"/>
-          <text x="176" y="521" font-size="11" fill="#1a2e44" font-weight="600">Flat Bar</text>
-          <text x="176" y="533" font-size="10" fill="#2d7a2d">iniciante</text>
+          <rect x="140" y="573" width="30" height="8" rx="2" fill="#8e44ad"/>
+          <text x="176" y="581" font-size="11" fill="#1a2e44" font-weight="600">Flat Bar</text>
+          <text x="176" y="593" font-size="10" fill="#2d7a2d">iniciante</text>
 
-          <rect x="260" y="512" width="20" height="24" rx="2" fill="#e67e22"/>
-          <text x="286" y="521" font-size="11" fill="#1a2e44" font-weight="600">Kicker</text>
-          <text x="286" y="533" font-size="10" fill="#9a6800">inic/médio</text>
+          <rect x="260" y="572" width="20" height="24" rx="2" fill="#e67e22"/>
+          <text x="286" y="581" font-size="11" fill="#1a2e44" font-weight="600">Kicker</text>
+          <text x="286" y="593" font-size="10" fill="#9a6800">inic/médio</text>
 
-          <rect x="370" y="513" width="30" height="8" rx="2" fill="#16a085"/>
-          <text x="406" y="521" font-size="11" fill="#1a2e44" font-weight="600">Transfer</text>
-          <text x="406" y="533" font-size="10" fill="#9a6800">médio</text>
+          <rect x="370" y="573" width="30" height="8" rx="2" fill="#16a085"/>
+          <text x="406" y="581" font-size="11" fill="#1a2e44" font-weight="600">Transfer</text>
+          <text x="406" y="593" font-size="10" fill="#9a6800">médio</text>
 
-          <rect x="490" y="511" width="20" height="20" rx="2" fill="#2c3e50"/>
-          <text x="516" y="521" font-size="11" fill="#1a2e44" font-weight="600">Rooftop</text>
-          <text x="516" y="533" font-size="10" fill="#9a0000">avançado</text>
+          <rect x="490" y="571" width="20" height="20" rx="2" fill="#2c3e50"/>
+          <text x="516" y="581" font-size="11" fill="#1a2e44" font-weight="600">Rooftop</text>
+          <text x="516" y="593" font-size="10" fill="#9a0000">avançado</text>
 
-          <rect x="600" y="513" width="30" height="8" rx="2" fill="#c0392b"/>
-          <text x="636" y="521" font-size="11" fill="#1a2e44" font-weight="600">Fibonat</text>
-          <text x="636" y="533" font-size="10" fill="#9a6800">médio</text>
+          <rect x="600" y="573" width="30" height="8" rx="2" fill="#c0392b"/>
+          <text x="636" y="581" font-size="11" fill="#1a2e44" font-weight="600">Fibonat</text>
+          <text x="636" y="593" font-size="10" fill="#9a6800">médio</text>
 
           <!-- linha tracejada na legenda -->
-          <line x1="20" y1="542" x2="740" y2="542" stroke="#c8e1f7" stroke-width="1"/>
-          <line x1="40" y1="552" x2="80" y2="552" stroke="#1a6fbb" stroke-width="2" stroke-dasharray="6 3"/>
-          <text x="88" y="556" font-size="11" fill="#1a2e44">Cabo / trajeto (sentido ↻ horário)</text>
+          <line x1="20" y1="602" x2="740" y2="602" stroke="#c8e1f7" stroke-width="1"/>
+          <line x1="40" y1="612" x2="80" y2="612" stroke="#1a6fbb" stroke-width="2" stroke-dasharray="6 3"/>
+          <text x="88" y="616" font-size="11" fill="#1a2e44">Cabo / trajeto (sentido ↻ horário)</text>
 
         </svg>
       </div>
