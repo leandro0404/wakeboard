@@ -81,7 +81,7 @@ Mapa desenhado em SVG com 5 torres (boias laranjas), cabo tracejado horário e 8
 4. Flat Bar 2 — acima do cabo
 
 **Obstáculos na lateral esquerda:**
-- Incliner — estrutura triangular com corrimão, diagonal para fora na lateral esquerda. Entrada com cavada reta no rumo do obstáculo. Passar de board é mais seguro para iniciantes — mais área de contato do que um 50-50
+- Incliner — estrutura triangular com corrimão, diagonal para fora na lateral esquerda. Entrada com cavada reta no rumo do obstáculo. Passar de board dá mais margem de erro do que um 50-50 no tubo — qualquer desequilíbrio pequeno no 50-50 já derruba
 
 **Obstáculos na base (sentido horário, torre 4 → torre 5):**
 - Transfer — acima do cabo (lado direito para quem vem), próximo torre 4
