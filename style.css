@@ -15,29 +15,15 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   background-color: #f0f7ff;
   background-image:
-    url('canibal.jpeg'),
-    url('pista-bg.svg');
-  background-repeat: repeat, repeat;
-  background-size: 400px auto, 500px auto;
-  background-attachment: fixed, fixed;
+    linear-gradient(rgba(240,247,255,0.82), rgba(240,247,255,0.82)),
+    url('canibal.jpeg');
+  background-repeat: repeat;
+  background-size: 380px auto;
+  background-attachment: fixed;
   color: #1a2e44;
   line-height: 1.6;
-  position: relative;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: rgba(240, 247, 255, 0.78);
-  z-index: 0;
-  pointer-events: none;
-}
-
-body > * {
-  position: relative;
-  z-index: 1;
-}
 
 .container {
   max-width: 1000px;
@@ -163,11 +149,11 @@ nav a:hover {
 =========================== */
 .section {
   padding: 4rem 0;
-  background: #ffffff;
+  background: rgba(255,255,255,0.75);
 }
 
 .section.alt {
-  background: #f0f7ff;
+  background: rgba(240,247,255,0.75);
 }
 
 .section h2 {
