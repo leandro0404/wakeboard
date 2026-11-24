@@ -70,4 +70,4 @@ python3 -m http.server 8080
 
 ---
 
-*Canibal Wake Crew — EST. 2023 · Sports & Adventure*
+*Canibal Wake Crew — EST. 2023 · Sports & Adventure · Novembro 2026*
