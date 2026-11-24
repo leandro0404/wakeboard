@@ -1,0 +1,590 @@
+/* ===========================
+   RESET & BASE
+=========================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f0f7ff;
+  color: #1a2e44;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+header {
+  background: #1a2e44;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  height: 52px;
+  width: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: white;
+}
+
+header .subtitle {
+  font-size: 0.82rem;
+  opacity: 0.7;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* ===========================
+   HERO
+=========================== */
+.hero {
+  background: linear-gradient(135deg, #1a2e44 0%, #1a6fbb 100%);
+  color: white;
+  padding: 3rem 0;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-logo {
+  width: 160px;
+  height: 88px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  opacity: 0.88;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-logo {
+    width: 140px;
+    height: auto;
+  }
+  .hero h2 { font-size: 1.6rem; }
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+.section {
+  padding: 4rem 0;
+  background: #ffffff;
+}
+
+.section.alt {
+  background: #f0f7ff;
+}
+
+.section h2 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #1a2e44;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: #1a6fbb;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.section-intro {
+  font-size: 1.05rem;
+  color: #4a6080;
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a2e44;
+  margin: 2.5rem 0 1rem;
+}
+
+/* ===========================
+   CARDS (equipamento)
+=========================== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.2rem;
+}
+
+.card {
+  background: #f0f7ff;
+  border: 1px solid #c8e1f7;
+  border-radius: 12px;
+  padding: 1.4rem 1rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(26,111,187,0.12);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: #1a6fbb;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: #4a6080;
+}
+
+/* ===========================
+   STEPS
+=========================== */
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.step {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #c8e1f7;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+}
+
+.section.alt .step {
+  background: white;
+}
+
+.step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.2rem;
+  height: 2.2rem;
+  background: #1a6fbb;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.95rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.step h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #1a2e44;
+}
+
+.step p {
+  font-size: 0.9rem;
+  color: #4a6080;
+}
+
+/* ===========================
+   TIP BOX
+=========================== */
+.tip-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.tip {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  background: #f0f7ff;
+  border: 1px solid #c8e1f7;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+}
+
+.section .tip {
+  background: #f0f7ff;
+}
+
+.tip-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.tip p {
+  font-size: 0.9rem;
+  color: #1a2e44;
+}
+
+/* ===========================
+   MAPA SVG
+=========================== */
+.mapa-wrap {
+  background: #d6eeff;
+  border: 2px solid #c8e1f7;
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mapa-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.boia-dica {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #fff8e8;
+  border: 1.5px solid #f0c040;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 2rem;
+  font-size: 0.92rem;
+  color: #1a2e44;
+}
+
+.boia-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.obstaculos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.obstaculo {
+  background: #f0f7ff;
+  border-left: 4px solid #1a6fbb;
+  border-radius: 0 10px 10px 0;
+  padding: 1rem 1.2rem;
+}
+
+.ob-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.ob-nome {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1a2e44;
+}
+
+.badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  background: #c8e1f7;
+  color: #1a6fbb;
+}
+
+.iniciante-badge {
+  background: #d4f0d4;
+  color: #2d7a2d;
+}
+
+.medio-badge {
+  background: #fff0c8;
+  color: #9a6800;
+}
+
+.avancado-badge {
+  background: #ffd4d4;
+  color: #9a0000;
+}
+
+.obstaculo p {
+  font-size: 0.88rem;
+  color: #4a6080;
+}
+
+/* ===========================
+   BASE CARDS
+=========================== */
+.base-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .base-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.base-card {
+  border-radius: 14px;
+  padding: 1.5rem;
+  border: 2px solid;
+}
+
+.base-card.regular {
+  background: #e8f4ff;
+  border-color: #1a6fbb;
+}
+
+.base-card.goofy {
+  background: #fff8e8;
+  border-color: #e8a020;
+}
+
+.base-card h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.base-card.regular h3 { color: #1a6fbb; }
+.base-card.goofy h3 { color: #b87800; }
+
+.base-sub {
+  font-size: 0.82rem;
+  color: #6a7f96;
+  margin-bottom: 1rem;
+}
+
+.base-card ul {
+  padding-left: 1.2rem;
+}
+
+.base-card li {
+  font-size: 0.9rem;
+  color: #1a2e44;
+  margin-bottom: 0.4rem;
+}
+
+/* ===========================
+   MACETES
+=========================== */
+.macetes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.macete {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #f0f7ff;
+  border: 1px solid #c8e1f7;
+  border-radius: 12px;
+  padding: 1.2rem;
+}
+
+.macete-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.macete p {
+  font-size: 0.9rem;
+  color: #1a2e44;
+  font-weight: 500;
+}
+
+/* ===========================
+   CANAIS
+=========================== */
+.canais-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.canal-card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: white;
+  border: 1px solid #c8e1f7;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.canal-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(26,111,187,0.12);
+  border-color: #1a6fbb;
+}
+
+.canal-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.canal-logo.yt {
+  background: #ff0000;
+  color: white;
+}
+
+.canal-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a2e44;
+  margin-bottom: 0.2rem;
+}
+
+.canal-card p {
+  font-size: 0.85rem;
+  color: #4a6080;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+  background: #1a2e44;
+  color: white;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer .footer-sub {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-top: 0.4rem;
+  font-weight: 400;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.4rem; }
+  .hero h2 { font-size: 1.7rem; }
+  .section h2 { font-size: 1.4rem; }
+  .tip-box { grid-template-columns: 1fr; }
+  .macetes-grid { grid-template-columns: 1fr; }
+  .obstaculos { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
